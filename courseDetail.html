@@ -84,13 +84,11 @@
           <div class="sidebar-content">
             <ul class="nav nav-secondary">
               <li class="nav-item active">
-                <a  href="#dashboard"
-                >
+                <a href="#dashboard">
                   <i class="fas fa-home"></i>
                   <p>Dashboard</p>
-                 
                 </a>
-      </li>
+              </li>
               <li class="nav-section">
                 <span class="sidebar-mini-icon">
                   <i class="fa fa-ellipsis-h"></i>
@@ -100,14 +98,13 @@
               <li class="nav-item">
                 <a href="manageStudent.html">
                   <i class="fas fa-layer-group"></i>
-                  <p>Manage Students
-                  </p>
-               </a>
- </li>
+                  <p>Manage Students</p>
+                </a>
+              </li>
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarLayouts">
                   <i class="fas fa-people-arrows"></i>
-                  <p> Manage Instructors </p>
+                  <p>Manage Instructors</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="sidebarLayouts">
@@ -128,7 +125,7 @@
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarLayouts">
                   <i class="fa-solid fa-money-bill"></i>
-                  <p> Fee & Payment </p>
+                  <p>Fee & Payment</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="sidebarLayouts">
@@ -165,7 +162,7 @@
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#tables">
                   <i class="fa-solid fa-chart-pie"></i>
-                  <p> Manage Classes/Courses       </p>
+                  <p>Manage Classes/Courses</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="tables">
@@ -232,7 +229,6 @@
                   <span class="badge badge-success">4</span>
                 </a>
               </li>
-             
             </ul>
           </div>
         </div>
@@ -624,335 +620,150 @@
         <!-- page content -->
         <div class="innerContent">
           <div class="container-fluid">
-            <div class="manageStudentDetal">
-              <div class="row
-              ">
-              <div class="col-lg-2 col-md-3">
+            <div class="row">
+              <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
 
-                  <div class="studentImageNmae">
-                    <div class="stuImg">
-                      <img src="./assets/img/studentImg.jpg" alt="">
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i> 2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
                     </div>
-                    <h6>John Smith</h6>
-                  </div>
-                  <div class="nav flex-column nav-pills mt-4    " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Profile</button>
-                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" tabindex="-1">Courses</button>
-                    <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" tabindex="-1">Fee Paid/Rename</button>
-                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" tabindex="-1">Attendance</button>
-                    <!-- <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button> -->
-                  </div>
-              </div>
-              <div class="col-lg-10">
-
-                  <div>
-               
-                    <div class="tab-content" id="pills-tabContent">
-                      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
-                                    <div class="loginForm manageForm">
-                                        <div class="row">
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper">
-                                              <label for="email">First Name</label>
-                                              <div class="input-icon">
-                                                <input type="text" id="firstName" placeholder="Zeid ">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email"> Last Name</label>
-                                              <div class="input-icon">
-                                                <input type="text" id="lastName" placeholder="Mallas">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="text"> Gender</label>
-                                              <div class="input-icon">
-                                                <input type="text" id="gender" placeholder="Female">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email"> Email</label>
-                                              <div class="input-icon">
-                                                <input type="email" id="email" placeholder="admin@gmail.com">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email"> Password</label>
-                                              <div class="input-icon">
-                                                <input type="password" id="password" placeholder="23124310000">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email"> Father Name</label>
-                                              <div class="input-icon">
-                                                <input type="text" id="fName" placeholder="Milton">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email"> Mother Name</label>
-                                              <div class="input-icon">
-                                                <input type="text" id="mName" placeholder="Mrs. Zony">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email"> Place of Birth</label>
-                                              <div class="input-icon">
-                                                <input type="text" id="BirthPlace" placeholder="Pathak">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email"> Date of Birth </label>
-                                              <div class="input-icon">
-                                                <input type="date" id="dob" placeholder="12/2/2002">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email">Phone Number </label>
-                                              <div class="input-icon">
-                                                <input type="number" id="pNumber" placeholder="+9196325232">
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label for="email">Select Class </label>
-                                              <div class="input-icon">
-                                                <select name="" id="">
-                                                  <option value="">First</option>
-                                                  <option value="">First</option>
-                                                  <option value="">First</option>
-                                                  <option value="">First</option>
-                                                </select>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-6">
-                                            <div class="input-wrapper mb-0">
-                                              <label>Select Year </label>
-                                              <div class="input-icon">
-                                                <select name="" id="">
-                                                  <option value="">S econd</option>
-                                                  <option value="">First</option>
-                                                  <option value="">First</option>
-                                                  <option value="">First</option>
-                                                </select>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-lg-12">
-                                            <div class="input-wrapper mb-0">
-                                              <label>Address </label>
-                                              <div class="input-icon">
-                                                <textarea name="" id=""></textarea>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="submitBtn">
-                                          <button class="mt-3 mb-2">Submit</button>
-                                        </div>
-                                      </div> 
-
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
-                                    <div class="row">
-                                        <div class="table-responsive">
-                                          <table id="myTable" class="display mt-5 table-stripe">
-                                            <thead>
-                                              <tr>
-                                                <th>SR. No</th>
-                                                <th>Full Name</th>
-                                                <th>Email</th>
-                                                <th>Phone Number</th>
-                                                <th>View</th>
-                                                <th>Password Reset</th>
-                                                <th>Status</th>
-                                                <th>Action</th>
-                                              </tr>
-                                            </thead>
-                                            <tbody>
-                                              <tr>
-                                                <td>1</td>
-                                                <td>pratima pathak</td>
-                                                <td>john@example.com</td>
-                                                <td>124353535</td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <i class="fa-solid fa-eye"></i>
-                                                  </div>
-                                                </td>
-                                                <td>xyz</td>
-                                                <td>
-                                                    <label class="switch">
-                                                        <input type="checkbox" id="toggleSwitch">
-                                                        <span class="slider" id="sliderText"><span class="inactive-status">Inactive</span></span>
-                                                      </label>
-                                                </td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <div><i class="fa-solid fa-pen"></i></div>
-                                                    <div><i class="fa-solid fa-trash"></i></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td>1</td>
-                                                <td>pratima pathak</td>
-                                                <td>john@example.com</td>
-                                                <td>124353535</td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <i class="fa-solid fa-eye"></i>
-                                                  </div>
-                                                </td>
-                                                <td>xyz</td>
-                                                <td>
-                                                  <label class="switch">
-                                                    <input type="checkbox" id="toggleSwitch">
-                                                    <span class="slider" id="sliderText"><span class="inactive-status">Inactive</span></span>
-                                                  </label>
-                                                </td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <div><i class="fa-solid fa-pen"></i></div>
-                                                    <div><i class="fa-solid fa-trash"></i></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td>1</td>
-                                                <td>pratima pathak</td>
-                                                <td>john@example.com</td>
-                                                <td>124353535</td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <i class="fa-solid fa-eye"></i>
-                                                  </div>
-                                                </td>
-                                                <td>xyz</td>
-                                                <td>
-                                                    <label class="switch">
-                                                        <input type="checkbox" id="toggleSwitch">
-                                                        <span class="slider" id="sliderText"><span class="inactive-status">Inactive</span></span>
-                                                      </label>
-                                                </td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <div><i class="fa-solid fa-pen"></i></div>
-                                                    <div><i class="fa-solid fa-trash"></i></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td>1</td>
-                                                <td>pratima pathak</td>
-                                                <td>john@example.com</td>
-                                                <td>124353535</td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <i class="fa-solid fa-eye"></i>
-                                                  </div>
-                                                </td>
-                                                <td>xyz</td>
-                                                <td>
-                                                    <label class="switch">
-                                                        <input type="checkbox" id="toggleSwitch">
-                                                        <span class="slider" id="sliderText"><span class="inactive-status">Inactive</span></span>
-                                                      </label>
-                                                </td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <div><i class="fa-solid fa-pen"></i></div>
-                                                    <div><i class="fa-solid fa-trash"></i></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td>1</td>
-                                                <td>pratima pathak</td>
-                                                <td>john@example.com</td>
-                                                <td>124353535</td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <i class="fa-solid fa-eye"></i>
-                                                  </div>
-                                                </td>
-                                                <td>xyz</td>
-                                                <td>
-                                                    <label class="switch">
-                                                        <input type="checkbox" id="toggleSwitch">
-                                                        <span class="slider" id="sliderText"><span class="inactive-status">Inactive</span></span>
-                                                      </label>
-                                                </td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <div><i class="fa-solid fa-pen"></i></div>
-                                                    <div><i class="fa-solid fa-trash"></i></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td>1</td>
-                                                <td>pratima pathak</td>
-                                                <td>john@example.com</td>
-                                                <td>124353535</td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <i class="fa-solid fa-eye"></i>
-                                                  </div>
-                                                </td>
-                                                <td>xyz</td>
-                                                <td>
-                                                    <label class="switch">
-                                                        <input type="checkbox" id="toggleSwitch">
-                                                        <span class="slider" id="sliderText"><span class="inactive-status">Inactive</span></span>
-                                                      </label>
-                                                </td>
-                                                <td>
-                                                  <div class="tableIcon">
-                                                    <div><i class="fa-solid fa-pen"></i></div>
-                                                    <div><i class="fa-solid fa-trash"></i></div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
-                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                   
+                    <div class="capacityNumber">
+                      <h3>50</h3>
                     </div>
                   </div>
+                </div>
               </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
+
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i> 2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
+                    </div>
+                    <div class="capacityNumber">
+                      <h3>50</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
+
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i>  2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
+                    </div>
+                    <div class="capacityNumber">
+                      <h3>50</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
+
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i> 2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
+                    </div>
+                    <div class="capacityNumber">
+                      <h3>50</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
+
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i> 2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
+                    </div>
+                    <div class="capacityNumber">
+                      <h3>50</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
+
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i> 2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
+                    </div>
+                    <div class="capacityNumber">
+                      <h3>50</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
+
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i> 2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
+                    </div>
+                    <div class="capacityNumber">
+                      <h3>50</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
+
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i> 2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
+                    </div>
+                    <div class="capacityNumber">
+                      <h3>50</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div class="col-lg-3 col-md-4">
+                <div class="course-card mb-3">
+                  <h2>Python</h2>
+
+                  <span class="dateCourse"> <i class="fa-solid fa-calendar"></i> 2025-05-15 </span>
+                  <div class="capacityParent">
+                    <div>
+                      <p><span class="label">Start Time:</span> 10:00 AM</p>
+                      <p><span class="label">End Time:</span> 12:00 PM</p>
+                    </div>
+                    <div class="capacityNumber">
+                      <h3>50</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -992,7 +803,7 @@
     <script src="assets/js/core/bootstrap.min.js"></script>
 
     <!-- jQuery Scrollbar -->
-    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script> 
+    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
     <!-- Chart JS -->
     <script src="assets/js/plugin/chart.js/chart.min.js"></script>
@@ -1051,18 +862,17 @@
       });
     </script>
     <script>
-      document.querySelectorAll('.nav-item a').forEach(item => {
-    item.addEventListener('click', function () {
-        var target = document.querySelector(this.getAttribute('href'));
-        
-        if (!target.classList.contains('show')) {
-           document.querySelectorAll('.collapse').forEach(collapse => {
-                collapse.classList.remove('show');
-            });
-        }
-    });
-});
+      document.querySelectorAll(".nav-item a").forEach((item) => {
+        item.addEventListener("click", function () {
+          var target = document.querySelector(this.getAttribute("href"));
 
+          if (!target.classList.contains("show")) {
+            document.querySelectorAll(".collapse").forEach((collapse) => {
+              collapse.classList.remove("show");
+            });
+          }
+        });
+      });
     </script>
   </body>
 </html>
